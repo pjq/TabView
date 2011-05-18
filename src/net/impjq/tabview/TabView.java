@@ -11,6 +11,8 @@ import android.view.View.OnClickListener;
 import android.view.Window;
 import android.view.animation.Animation;
 import android.view.animation.Animation.AnimationListener;
+import android.view.animation.Interpolator;
+import android.view.animation.LinearInterpolator;
 import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -143,7 +145,12 @@ public class TabView extends TabActivity implements OnClickListener {
     private void startSlip(View v) {
         Animation a = new TranslateAnimation(0.0f, v.getLeft() - mTabs[mPreClickID].getLeft(),
                 0.0f, 0.0f);
+        
+        //int len = Math.abs(v.getLeft() - mTabs[mPreClickID].getLeft());
+        // Interpolator interpolator=new LinearInterpolator();
+        // a.setInterpolator(interpolator);
         a.setDuration(200);
+        //a.setDuration(len * 1.5);
         a.setFillAfter(false);
         a.setFillBefore(false);
         for (int i = 0; i < maxTabs; i++) {

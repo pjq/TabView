@@ -2,7 +2,6 @@ package net.impjq.tabview;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.widget.TextView;
 
 public class TabBuddy extends Activity {
     @Override
