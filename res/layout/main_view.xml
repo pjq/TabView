@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	android:orientation="vertical">
+	<TabHost
+		android:id="@android:id/tabhost"
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent">
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			<TabWidget
+				android:id="@android:id/tabs"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="0.0"
+				android:visibility="gone" />
+			<FrameLayout
+				android:id="@android:id/tabcontent"
+				android:layout_width="fill_parent"
+				android:layout_height="0.0dip"
+				android:layout_weight="1.0" />
+			<FrameLayout
+				android:layout_width="fill_parent"
+				android:layout_height="57dip"
+				android:layout_centerInParent="true"
+				android:background="@drawable/bg_tab"
+				>
+				<LinearLayout
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:orientation="horizontal">
+					<ImageView
+						style="@style/Tab_Cover_Btn"
+						android:id="@+id/cover_btn1" />
+					<ImageView
+						style="@style/Tab_Cover_Btn"
+						android:id="@+id/cover_btn2"
+						android:visibility="invisible" />
+					<ImageView
+						style="@style/Tab_Cover_Btn"
+						android:id="@+id/cover_btn3"
+						android:visibility="invisible" />
+					<ImageView
+						style="@style/Tab_Cover_Btn"
+						android:id="@+id/cover_btn4"
+						android:visibility="invisible" />
+				</LinearLayout>
+				<LinearLayout
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:orientation="horizontal"
+					android:paddingTop="12dip">
+					<LinearLayout
+						android:id="@+id/tab1"
+						android:layout_width="0dip"
+						android:layout_height="fill_parent"
+						android:gravity="center_horizontal"
+						android:orientation="vertical"
+						android:layout_weight="1">
+						<ImageView
+							android:layout_width="28dip"
+							android:layout_height="28dip"
+							android:background="@drawable/ic_main" />
+						<TextView
+							style="@style/Tab_Text_Small"
+							android:text="@string/tab_main" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/tab2"
+						android:layout_width="0dip"
+						android:layout_height="fill_parent"
+						android:gravity="center_horizontal"
+						android:orientation="vertical"
+						android:layout_weight="1">
+						<ImageView
+							android:layout_width="28dip"
+							android:layout_height="28dip"
+							android:background="@drawable/ic_buddy" />
+						<TextView
+							style="@style/Tab_Text_Small"
+							android:text="@string/tab_buddy" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/tab3"
+						android:layout_width="0dip"
+						android:layout_height="fill_parent"
+						android:gravity="center_horizontal"
+						android:orientation="vertical"
+						android:layout_weight="1">
+						<ImageView
+							android:layout_width="28dip"
+							android:layout_height="28dip"
+							android:background="@drawable/ic_more" />
+						<TextView
+							style="@style/Tab_Text_Small"
+							android:text="@string/tab_more" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/tab4"
+						android:layout_width="0dip"
+						android:layout_height="fill_parent"
+						android:gravity="center_horizontal"
+						android:orientation="vertical"
+						android:layout_weight="1">
+						<ImageView
+							android:layout_width="28dip"
+							android:layout_height="28dip"
+							android:background="@drawable/ic_about" />
+						<TextView
+							style="@style/Tab_Text_Small"
+							android:text="@string/tab_about" />
+					</LinearLayout>
+				</LinearLayout>
+			</FrameLayout>
+		</LinearLayout>
+	</TabHost>
+</LinearLayout>

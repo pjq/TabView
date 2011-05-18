@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="iWindowTitleBackground" parent="android:WindowTitleBackground">    
+        <item name="android:background">@color/transparent</item>      
+    </style>
+    
+    
+    <style name="Edt_AppForm">
+		<item name="android:layout_weight">1</item>
+		<item name="android:layout_width">0dip</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:layout_margin">1dip</item>
+		<item name="android:textSize">18sp</item>
+		<item name="android:textColor">@color/input</item>
+		<item name="android:gravity">left|center_vertical</item>
+		<item name="android:singleLine">true</item>
+	</style>
+    
+	<style name="Spiner_Item">
+		<item name="android:layout_weight">1</item>
+		<item name="android:layout_width">0dip</item>
+		<item name="android:layout_height">wrap_content</item>	
+		<item name="android:drawSelectorOnTop">true</item>
+		<item name="android:layout_marginRight">5dip</item>
+	</style>
+	<style name="Logo">	
+		<item name="android:layout_width">86dip</item>
+		<item name="android:layout_height">56dip</item>
+		<item name="android:padding">3dip</item>
+		<item name="android:scaleType">fitXY</item>
+	</style>
+	
+		<style name="Tab_Cover_Icon">			
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:clickable">false</item>
+		<item name="android:layout_gravity">center_vertical</item>
+		<item name="android:layout_weight">1</item>		
+	</style>
+	<style name="Tab_Cover_Btn">			
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:clickable">false</item>
+		<item name="android:layout_gravity">center_vertical</item>
+		<item name="android:background">@drawable/btn_tab_light</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:layout_marginTop">7dip</item>	
+		<item name="android:layout_marginBottom">4dip</item>
+		<item name="android:layout_marginLeft">11dip</item>
+		<item name="android:layout_marginRight">11dip</item>	
+	</style>
+	
+	<style name="Tab_Content_Icon">			
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">fill_parent</item>		
+		<item name="android:clickable">false</item>
+		<item name="android:layout_gravity">center_vertical</item>
+		<item name="android:layout_weight">1</item>		
+	</style>
+
+	<style name="Tab_Text_Big">			
+		<item name="android:layout_width">0dip</item>
+		<item name="android:layout_height">fill_parent</item>		
+		<item name="android:clickable">false</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_weight">1</item>	
+		<item name="android:singleLine">true</item>	
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:textSize">18sp</item>		
+	</style>
+
+	
+	<style name="Tab_Card_Icon">			
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:clickable">false</item>
+		<item name="android:layout_gravity">center_vertical</item>
+		<item name="android:layout_weight">1</item>		
+	</style>
+	
+	<style name="Tab_Text_Small">			
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>		
+		<item name="android:clickable">false</item>
+		<item name="android:gravity">center_horizontal|top</item>	
+		<item name="android:singleLine">true</item>	
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:textSize">10sp</item>		
+	</style>
+	
+	<style name="More_Btn_Big">			
+		<item name="android:layout_marginLeft">10dip</item>
+		<item name="android:layout_marginRight">10dip</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">40dip</item>
+		<item name="android:textColor">#FFFFFF</item>
+	</style>
+	
+	<style name="Event_order_et">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">30dip</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:layout_marginTop">5dip</item>
+		<item name="android:layout_marginBottom">5dip</item>
+		<item name="android:textColor">#919187</item>
+		<item name="android:textColorHint">#919187</item>
+		<item name="android:background">#fef1eb</item>
+		<item name="android:gravity">center_vertical</item>
+	</style>
+	
+	<style name="Event_confirm_et">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">20dip</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:layout_marginTop">2dip</item>
+		<item name="android:layout_marginBottom">2dip</item>
+		<item name="android:textColor">#919187</item>
+		<item name="android:background">#fef1eb</item>
+		<item name="android:gravity">center_vertical</item>
+	</style>
+	
+	<style name="List_Item_Container">			
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">40dip</item>
+		<item name="android:paddingLeft">8dip</item>
+		<item name="android:orientation">horizontal</item>
+		<item name="android:gravity">center_vertical</item>
+	</style>
+
+	<style name="List_Item_Header">
+		<item name="android:layout_width">70dip</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:textSize">18sp</item>
+		<item name="android:textColor">@color/black</item>
+		<item name="android:gravity">center</item>
+		<item name="android:singleLine">true</item>
+	</style>
+	
+	<style name="List_Item_Content">			
+		<item name="android:layout_marginLeft">10dip</item>
+		<item name="android:layout_marginRight">10dip</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">48dip</item>
+	</style>
+	
+	<style name="List_Item_More">
+		<item name="android:layout_width">0dip</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:layout_marginLeft">5dip</item>
+		<item name="android:gravity">center_vertical|left</item>
+		<item name="android:textSize">18dip</item>
+	</style>
+	
+</resources>

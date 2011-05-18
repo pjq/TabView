@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TabView!</string>
+    <string name="app_name">TabView</string>
+    <string name="title_">Title</string>
+    <string name="tab_main">Main</string>
+    <string name="tab_more">More</string>
+    <string name="tab_buddy">Buddy</string>
+    <string name="tab_about">About</string>
+</resources>

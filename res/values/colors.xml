@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!--
+		Copyright (C) 2008 ZXing authors Licensed under the Apache License,
+		Version 2.0 (the "License"); you may not use this file except in
+		compliance with the License. You may obtain a copy of the License at
+
+		http://www.apache.org/licenses/LICENSE-2.0 Unless required by
+		applicable law or agreed to in writing, software distributed under the
+		License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+		CONDITIONS OF ANY KIND, either express or implied. See the License for
+		the specific language governing permissions and limitations under the
+		License.
+	-->
+<resources>
+	<color name="white">#ffffff</color>
+	<color name="black">#ff000000</color>
+	<color name="gray">#ff454545</color>
+	<color name="red">#ffff0000</color>
+	<color name="blue">#ff006fa5</color>
+	<color name="yellow">#ffffff00</color>
+	<color name="input_hint">#ff000000</color>	
+	<color name="background">#65c0ed</color>	
+	<color name="note">#a8e4ff</color>
+	<color name="input">#202020</color>
+	<color name="empty_msg">#ff000000</color>
+	<color name="inputnote1">#6e797f</color>
+	<color name="inputnote2">#8e8e8e</color>
+	<color name="mcard_point">#ff3dacde</color>
+	<color name="mcard_title">#ff000000</color>
+	<color name="time_note">#ffff3f3f</color>
+	<color name="help_question">#ff888888</color>
+	<color name="help_answer">#ff363636</color>
+	<color name="lgrey_end">#AEB2B7</color>
+	<color name="vlgrey">#EEEEEE</color>
+	<color name="about_text">#323232</color>
+	<color name="nearby_divider">#ffB2B1B1</color>
+	<color name="alink">#72ACE3</color>
+	<color name="foreground_dark">#69B7D4</color>
+
+	<!-- Zxing Resources http://code.google.com/p/zxing -->
+	<color name="contents_text">#ff000000</color>
+	<color name="encode_view">#ffffffff</color>
+	<color name="help_button_view">#ffcccccc</color>
+	<color name="help_view">#ff404040</color>
+	<color name="possible_result_points">#c0ffff00</color>
+	<color name="result_image_border">#ffffffff</color>
+	<color name="result_minor_text">#ffc0c0c0</color>
+	<color name="result_points">#c000ff00</color>
+	<color name="result_text">#ffffffff</color>
+	<color name="result_view">#b0000000</color>
+	<color name="sbc_header_text">#ff808080</color>
+	<color name="sbc_header_view">#ffffffff</color>
+	<color name="sbc_list_item">#fffff0e0</color>
+	<color name="sbc_layout_view">#ffffffff</color>
+	<color name="sbc_page_number_text">#ff000000</color>
+	<color name="sbc_snippet_text">#ff4b4b4b</color>
+	<color name="share_text">#ff000000</color>
+	<color name="share_view">#ffffffff</color>
+	<color name="status_view">#50000000</color>
+	<color name="status_text">#ffffffff</color>
+	<color name="transparent">#00ffffff</color>
+	<color name="viewfinder_frame">#ff000000</color>
+	<color name="viewfinder_laser">#ffff0000</color>
+	<color name="viewfinder_mask">#60000000</color>
+<color name="login_buttom">#63a6b7</color>
+</resources>
